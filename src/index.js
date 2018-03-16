@@ -12,13 +12,13 @@ numbers.forEach((numb) => {
 */
 
 var people = [
-	{ name: "Dan", age: 31 },
-	{ name: "Erin", age: 30.4 },
-	{ name: "Eleanor", age: .5 }
+  { name: "Dan", age: 31 },
+  { name: "Erin", age: 30.4 },
+  { name: "Eleanor", age: 0.5 }
 ];
 
-function log(person){
-    console.log("Hello " + person.name);
+function log(person) {
+  console.log("Hello " + person.name);
 }
 
 people.forEach(log);

@@ -28,4 +28,4 @@ people.forEach(log);
 //});
 
 var potato = document.getElementById("message");
-potato.innerHTML = "HOT SOUP";
+potato.innerHTML = "IRON BOOTS!";

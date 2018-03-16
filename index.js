@@ -28,4 +28,4 @@ people.forEach(log);
 //});
 
 var potato = document.getElementById("message");
-potato.innerHTML = "tomato";
+potato.innerHTML = "HOT SOUP";

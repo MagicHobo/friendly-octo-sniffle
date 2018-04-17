@@ -1,10 +1,13 @@
 var express = require("express");
 var app = express();
+var port = 3000;
 
 app.use(express.static(__dirname + "/src"));
 
 app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/src/index.html");
+    response.sendFile(__dirname + "/src/index.html");
 });
 
-app.listen(process.env.PORT || 6000);
+var listener = app.listen(process.env.PORT || port, () => {
+    console.log(`App running at http://localhost:${listener.address().port}`);
+});
